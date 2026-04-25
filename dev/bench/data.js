@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777034172915,
+  "lastUpdate": 1777111527590,
   "repoUrl": "https://github.com/cyril0124/verilua",
   "entries": {
     "verilua benchmark results": [
@@ -31914,6 +31914,246 @@ window.BENCHMARK_DATA = {
           {
             "name": "[benchmarks] wave_vpi_vcd_hot1000 - wave_vpi jit `off`",
             "value": 5194.19141285,
+            "unit": "ms",
+            "extra": "wave_vpi VCD Hot-Prefetch JIT off"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "211998078@qq.com",
+            "name": "cyril0124",
+            "username": "cyril0124"
+          },
+          "committer": {
+            "email": "211998078@qq.com",
+            "name": "cyril0124",
+            "username": "cyril0124"
+          },
+          "distinct": true,
+          "id": "c56efa1f23e4996cd653f7b641700458c9f96a48",
+          "message": "fix: stop until edge waits after final failed check",
+          "timestamp": "2026-04-25T17:29:59+08:00",
+          "tree_id": "547b38efabc015c581aa6bd82074b7d8f3992561",
+          "url": "https://github.com/cyril0124/verilua/commit/c56efa1f23e4996cd653f7b641700458c9f96a48"
+        },
+        "date": 1777111527143,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "[benchmarks] merged resutls - sim `iverilog` - jit `on`",
+            "value": 6751.35105616,
+            "unit": "ms",
+            "extra": "sim version: Icarus Verilog version 13.0 (devel) (s20250103)"
+          },
+          {
+            "name": "[benchmarks] merged resutls - sim `iverilog` - jit `off`",
+            "value": 8708.92545594,
+            "unit": "ms",
+            "extra": "sim version: Icarus Verilog version 13.0 (devel) (s20250103)"
+          },
+          {
+            "name": "[benchmarks] merged resutls - sim `verilator` - jit `on`",
+            "value": 4079.61977558,
+            "unit": "ms",
+            "extra": "sim version: Verilator 5.038 2025-07-08 rev v5.038"
+          },
+          {
+            "name": "[benchmarks] merged resutls - sim `verilator` - jit `off`",
+            "value": 5936.31876364,
+            "unit": "ms",
+            "extra": "sim version: Verilator 5.038 2025-07-08 rev v5.038"
+          },
+          {
+            "name": "[benchmarks] merged resutls - wave_vpi_fst jit `on`",
+            "value": 4444.5679157,
+            "unit": "ms",
+            "extra": "wave_vpi FST Hot-Prefetch JIT on"
+          },
+          {
+            "name": "[benchmarks] merged resutls - wave_vpi_fst jit `off`",
+            "value": 4819.27380378,
+            "unit": "ms",
+            "extra": "wave_vpi FST Hot-Prefetch JIT off"
+          },
+          {
+            "name": "[benchmarks] merged resutls - wave_vpi_vcd jit `on`",
+            "value": 15026.54649648,
+            "unit": "ms",
+            "extra": "wave_vpi VCD Hot-Prefetch JIT on"
+          },
+          {
+            "name": "[benchmarks] merged resutls - wave_vpi_vcd jit `off`",
+            "value": 15408.66324065,
+            "unit": "ms",
+            "extra": "wave_vpi VCD Hot-Prefetch JIT off"
+          },
+          {
+            "name": "[benchmarks] signal_operation - sim `iverilog` - jit `on`",
+            "value": 2759.14842768,
+            "unit": "ms",
+            "extra": "sim version: Icarus Verilog version 13.0 (devel) (s20250103)"
+          },
+          {
+            "name": "[benchmarks] multitasking - sim `iverilog` - jit `on`",
+            "value": 1949.91699288,
+            "unit": "ms",
+            "extra": "sim version: Icarus Verilog version 13.0 (devel) (s20250103)"
+          },
+          {
+            "name": "[benchmarks] matrix_multiplier - sim `iverilog` - jit `on`",
+            "value": 2042.2856356,
+            "unit": "ms",
+            "extra": "sim version: Icarus Verilog version 13.0 (devel) (s20250103)"
+          },
+          {
+            "name": "[benchmarks] signal_operation - sim `iverilog` - jit `off`",
+            "value": 3332.25919908,
+            "unit": "ms",
+            "extra": "sim version: Icarus Verilog version 13.0 (devel) (s20250103)"
+          },
+          {
+            "name": "[benchmarks] multitasking - sim `iverilog` - jit `off`",
+            "value": 3217.7974895,
+            "unit": "ms",
+            "extra": "sim version: Icarus Verilog version 13.0 (devel) (s20250103)"
+          },
+          {
+            "name": "[benchmarks] matrix_multiplier - sim `iverilog` - jit `off`",
+            "value": 2158.86876736,
+            "unit": "ms",
+            "extra": "sim version: Icarus Verilog version 13.0 (devel) (s20250103)"
+          },
+          {
+            "name": "[benchmarks] signal_operation - sim `verilator` - jit `on`",
+            "value": 1976.50808306,
+            "unit": "ms",
+            "extra": "sim version: Verilator 5.038 2025-07-08 rev v5.038"
+          },
+          {
+            "name": "[benchmarks] multitasking - sim `verilator` - jit `on`",
+            "value": 1860.9895763,
+            "unit": "ms",
+            "extra": "sim version: Verilator 5.038 2025-07-08 rev v5.038"
+          },
+          {
+            "name": "[benchmarks] matrix_multiplier - sim `verilator` - jit `on`",
+            "value": 242.12211622,
+            "unit": "ms",
+            "extra": "sim version: Verilator 5.038 2025-07-08 rev v5.038"
+          },
+          {
+            "name": "[benchmarks] signal_operation - sim `verilator` - jit `off`",
+            "value": 2538.83779538,
+            "unit": "ms",
+            "extra": "sim version: Verilator 5.038 2025-07-08 rev v5.038"
+          },
+          {
+            "name": "[benchmarks] multitasking - sim `verilator` - jit `off`",
+            "value": 3118.79693854,
+            "unit": "ms",
+            "extra": "sim version: Verilator 5.038 2025-07-08 rev v5.038"
+          },
+          {
+            "name": "[benchmarks] matrix_multiplier - sim `verilator` - jit `off`",
+            "value": 278.68402972,
+            "unit": "ms",
+            "extra": "sim version: Verilator 5.038 2025-07-08 rev v5.038"
+          },
+          {
+            "name": "[benchmarks] wave_vpi_fst_hot5 - wave_vpi jit `on`",
+            "value": 767.29480316,
+            "unit": "ms",
+            "extra": "wave_vpi FST Hot-Prefetch JIT on"
+          },
+          {
+            "name": "[benchmarks] wave_vpi_fst_hot10 - wave_vpi jit `on`",
+            "value": 726.82047483,
+            "unit": "ms",
+            "extra": "wave_vpi FST Hot-Prefetch JIT on"
+          },
+          {
+            "name": "[benchmarks] wave_vpi_fst_hot100 - wave_vpi jit `on`",
+            "value": 842.35772978,
+            "unit": "ms",
+            "extra": "wave_vpi FST Hot-Prefetch JIT on"
+          },
+          {
+            "name": "[benchmarks] wave_vpi_fst_hot1000 - wave_vpi jit `on`",
+            "value": 2108.09490793,
+            "unit": "ms",
+            "extra": "wave_vpi FST Hot-Prefetch JIT on"
+          },
+          {
+            "name": "[benchmarks] wave_vpi_fst_hot5 - wave_vpi jit `off`",
+            "value": 733.24770824,
+            "unit": "ms",
+            "extra": "wave_vpi FST Hot-Prefetch JIT off"
+          },
+          {
+            "name": "[benchmarks] wave_vpi_fst_hot10 - wave_vpi jit `off`",
+            "value": 724.2827487,
+            "unit": "ms",
+            "extra": "wave_vpi FST Hot-Prefetch JIT off"
+          },
+          {
+            "name": "[benchmarks] wave_vpi_fst_hot100 - wave_vpi jit `off`",
+            "value": 827.78841558,
+            "unit": "ms",
+            "extra": "wave_vpi FST Hot-Prefetch JIT off"
+          },
+          {
+            "name": "[benchmarks] wave_vpi_fst_hot1000 - wave_vpi jit `off`",
+            "value": 2533.95493126,
+            "unit": "ms",
+            "extra": "wave_vpi FST Hot-Prefetch JIT off"
+          },
+          {
+            "name": "[benchmarks] wave_vpi_vcd_hot5 - wave_vpi jit `on`",
+            "value": 3372.66059971,
+            "unit": "ms",
+            "extra": "wave_vpi VCD Hot-Prefetch JIT on"
+          },
+          {
+            "name": "[benchmarks] wave_vpi_vcd_hot10 - wave_vpi jit `on`",
+            "value": 3398.37060566,
+            "unit": "ms",
+            "extra": "wave_vpi VCD Hot-Prefetch JIT on"
+          },
+          {
+            "name": "[benchmarks] wave_vpi_vcd_hot100 - wave_vpi jit `on`",
+            "value": 3504.86367648,
+            "unit": "ms",
+            "extra": "wave_vpi VCD Hot-Prefetch JIT on"
+          },
+          {
+            "name": "[benchmarks] wave_vpi_vcd_hot1000 - wave_vpi jit `on`",
+            "value": 4750.65161463,
+            "unit": "ms",
+            "extra": "wave_vpi VCD Hot-Prefetch JIT on"
+          },
+          {
+            "name": "[benchmarks] wave_vpi_vcd_hot5 - wave_vpi jit `off`",
+            "value": 3374.62633297,
+            "unit": "ms",
+            "extra": "wave_vpi VCD Hot-Prefetch JIT off"
+          },
+          {
+            "name": "[benchmarks] wave_vpi_vcd_hot10 - wave_vpi jit `off`",
+            "value": 3371.05723609,
+            "unit": "ms",
+            "extra": "wave_vpi VCD Hot-Prefetch JIT off"
+          },
+          {
+            "name": "[benchmarks] wave_vpi_vcd_hot100 - wave_vpi jit `off`",
+            "value": 3465.79535385,
+            "unit": "ms",
+            "extra": "wave_vpi VCD Hot-Prefetch JIT off"
+          },
+          {
+            "name": "[benchmarks] wave_vpi_vcd_hot1000 - wave_vpi jit `off`",
+            "value": 5197.18431774,
             "unit": "ms",
             "extra": "wave_vpi VCD Hot-Prefetch JIT off"
           }
